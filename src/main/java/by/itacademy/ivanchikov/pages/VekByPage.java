@@ -1,5 +1,6 @@
-package by.itacademy.ivanchikov;
+package by.itacademy.ivanchikov.pages;
 
+import by.itacademy.ivanchikov.driver.MyDriver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -14,8 +15,11 @@ public class VekByPage {
     private String buttonAcceptCookieLocator = "//button[@class='Button-module__button Button-module__blue-primary']";
     private WebDriver driver;
 
-    public VekByPage(WebDriver driver) {
-        this.driver = driver;
+    public VekByPage() {
+        this.driver = MyDriver.getDriver();
+    }
+    public void openHomePage(){
+        driver.get("https://www.21vek.by/");
     }
 
     public void clickButtonAccount() {

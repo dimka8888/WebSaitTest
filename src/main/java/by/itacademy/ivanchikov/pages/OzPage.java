@@ -1,4 +1,4 @@
-package by.itacademy.ivanchikov;
+package by.itacademy.ivanchikov.pages;
 
 
 import org.openqa.selenium.By;

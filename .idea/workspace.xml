@@ -4,34 +4,54 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8bb8c028-2b76-4958-8c9a-f6169e075d47" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/itacademy/ivanchikov/KvitkiByPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/itacademy/ivanchikov/OzPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/itacademy/ivanchikov/RwByPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/itacademy/ivanchikov/VekByPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/by/itacademy/ivanchikov/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/by/itacademy/ivanchikov/KvitkiByTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/by/itacademy/ivanchikov/OzTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/by/itacademy/ivanchikov/RwByTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/by/itacademy/ivanchikov/VekByTest.java" afterDir="false" />
+    <list default="true" id="8bb8c028-2b76-4958-8c9a-f6169e075d47" name="Changes" comment="add share no">
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/itacademy/ivanchikov/Colrction/MyMain3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/itacademy/ivanchikov/Colrction/MyMapMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/itacademy/ivanchikov/Colrction/MyMapMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/itacademy/ivanchikov/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/itacademy/ivanchikov/driver/MyDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/itacademy/ivanchikov/pages/DominosPizzaPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/itacademy/ivanchikov/pages/PizzaPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/itacademy/ivanchikov/pages/TerraPizzaPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/by/itacademy/ivanchikov/ArrayListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/by/itacademy/ivanchikov/DominisPizzaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/by/itacademy/ivanchikov/TerraPizzaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/itacademy/ivanchikov/KvitkiByPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/itacademy/ivanchikov/pages/KvitkiByPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/itacademy/ivanchikov/OzPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/itacademy/ivanchikov/pages/OzPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/itacademy/ivanchikov/PizzaPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/itacademy/ivanchikov/RwByPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/itacademy/ivanchikov/pages/RwByPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/itacademy/ivanchikov/VekByPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/itacademy/ivanchikov/pages/VekByPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by_ITAcademe_Ivanchikov_d/KvitkiByPage.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by_ITAcademe_Ivanchikov_d/OzPage.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by_ITAcademe_Ivanchikov_d/PassPage.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by_ITAcademe_Ivanchikov_d/PassPageMy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/itacademy/ivanchikov/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/itacademy/ivanchikov/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/itacademy/ivanchikov/KvitkiByTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/itacademy/ivanchikov/KvitkiByTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/itacademy/ivanchikov/OzTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/itacademy/ivanchikov/OzTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/itacademy/ivanchikov/RwByTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/itacademy/ivanchikov/RwByTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/itacademy/ivanchikov/VekByTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/itacademy/ivanchikov/VekByTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/itacademy/ivanchikov/testPizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/itacademy/ivanchikov/testPizza.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/by_itAcademy_Ivanchikov_d/testKvitkiByPage.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/by_itAcademy_Ivanchikov_d/testOz.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/by_itAcademy_Ivanchikov_d/testPass.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/by_itAcademy_Ivanchikov_d/testPassPageMy.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/by_ITAcademe_Ivanchikov_d/CalcPage$testCalcPage.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/by_ITAcademe_Ivanchikov_d/CalcPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by_ITAcademe_Ivanchikov_d/KvitkiByPage.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/by_ITAcademe_Ivanchikov_d/KvitkiCopi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by_ITAcademe_Ivanchikov_d/OzPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by_ITAcademe_Ivanchikov_d/PassPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by_ITAcademe_Ivanchikov_d/PassPageMy.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/by_ITAcademe_Ivanchikov_d/Vek21.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/by_itAcademy_Ivanchikov_d/testCalcPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/by_itAcademy_Ivanchikov_d/testKvitkiByPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/by_itAcademy_Ivanchikov_d/testKvitkiByPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/by_itAcademy_Ivanchikov_d/testKvitkiByPage.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/by_itAcademy_Ivanchikov_d/testKvitkiCopi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/by_itAcademy_Ivanchikov_d/testPass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/by_itAcademy_Ivanchikov_d/testPass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/by_itAcademy_Ivanchikov_d/testOz$PassPageMy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/by_itAcademy_Ivanchikov_d/testOz.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/by_itAcademy_Ivanchikov_d/testPass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/by_itAcademy_Ivanchikov_d/testPassPageMy.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/by_itAcademy_Ivanchikov_d/testVek21.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +71,11 @@
   </component>
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="taf-web-site" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -82,10 +107,10 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "taf-web-site1",
     "last_directory_selection": "C:/src/WebSaitTest/src/test/java",
-    "last_opened_file_path": "C:/src/WebSaitTest",
-    "settings.editor.selected.configurable": "editor.preferences.import"
+    "last_opened_file_path": "C:/src/demo-rest-api",
+    "settings.editor.selected.configurable": "advanced.settings"
   },
   "keyToStringList": {
     "ChangesTree.GroupingKeys": [
@@ -96,79 +121,81 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="by_ITAcademe_Ivanchikov_d" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="by.itacademy.ivanchikov" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.testWb.testloginButtonclick">
-    <configuration name="testCalcPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.MyMapMain2">
+    <configuration name="MyMapMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="by.itacademy.ivanchikov.Colrction.MyMapMain2" />
       <module name="PasePageMy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="by_itAcademy_Ivanchikov_d.*" />
+          <option name="PATTERN" value="by.itacademy.ivanchikov.Colrction.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="by_itAcademy_Ivanchikov_d" />
-      <option name="MAIN_CLASS_NAME" value="by_itAcademy_Ivanchikov_d.testCalcPage" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PasePageMy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.itacademy.ivanchikov.pages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.itacademy.ivanchikov" />
+      <option name="MAIN_CLASS_NAME" value="by.itacademy.ivanchikov.ArrayListTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testKvitkiByPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArrayListTest.findMenuItonLocator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PasePageMy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="by_itAcademy_Ivanchikov_d.*" />
+          <option name="PATTERN" value="by.itacademy.ivanchikov.pages.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="by_itAcademy_Ivanchikov_d" />
-      <option name="MAIN_CLASS_NAME" value="by_itAcademy_Ivanchikov_d.testKvitkiByPage" />
+      <option name="PACKAGE_NAME" value="by.itacademy.ivanchikov" />
+      <option name="MAIN_CLASS_NAME" value="by.itacademy.ivanchikov.ArrayListTest" />
+      <option name="METHOD_NAME" value="findMenuItonLocator" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TerraPizzaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PasePageMy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.itacademy.ivanchikov.pages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.itacademy.ivanchikov" />
+      <option name="MAIN_CLASS_NAME" value="by.itacademy.ivanchikov.TerraPizzaTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testKvitkiCopi" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="testPizza.start" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PasePageMy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="by_itAcademy_Ivanchikov_d.*" />
+          <option name="PATTERN" value="by.itacademy.ivanchikov.pages.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="by_itAcademy_Ivanchikov_d" />
-      <option name="MAIN_CLASS_NAME" value="by_itAcademy_Ivanchikov_d.testKvitkiCopi" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="testWb" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PasePageMy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="by_itAcademy_Ivanchikov_d.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="by_itAcademy_Ivanchikov_d" />
-      <option name="MAIN_CLASS_NAME" value="by_itAcademy_Ivanchikov_d.testWb" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="testWb.testloginButtonclick" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PasePageMy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="by_itAcademy_Ivanchikov_d.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="by_itAcademy_Ivanchikov_d" />
-      <option name="MAIN_CLASS_NAME" value="by_itAcademy_Ivanchikov_d.testWb" />
-      <option name="METHOD_NAME" value="testloginButtonclick" />
+      <option name="PACKAGE_NAME" value="by.itacademy.ivanchikov" />
+      <option name="MAIN_CLASS_NAME" value="by.itacademy.ivanchikov.testPizza" />
+      <option name="METHOD_NAME" value="start" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -176,11 +203,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.testWb.testloginButtonclick" />
-        <item itemvalue="JUnit.testWb" />
-        <item itemvalue="JUnit.testCalcPage" />
-        <item itemvalue="JUnit.testKvitkiCopi" />
-        <item itemvalue="JUnit.testKvitkiByPage" />
+        <item itemvalue="Application.MyMapMain2" />
+        <item itemvalue="JUnit.TerraPizzaTest" />
+        <item itemvalue="JUnit.ArrayListTest.findMenuItonLocator" />
+        <item itemvalue="JUnit.ArrayListTest" />
+        <item itemvalue="JUnit.testPizza.start" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +268,23 @@
       <option name="project" value="LOCAL" />
       <updated>1700762990773</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add share taf-web-site">
+      <option name="closed" value="true" />
+      <created>1701087773217</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1701087773217</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add share no">
+      <option name="closed" value="true" />
+      <created>1701153565737</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1701153565737</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -260,7 +303,9 @@
     <MESSAGE value="taf-web PassNew" />
     <MESSAGE value="taf-web Site" />
     <MESSAGE value="taf-web oz" />
-    <option name="LAST_COMMIT_MESSAGE" value="taf-web oz" />
+    <MESSAGE value="add share taf-web-site" />
+    <MESSAGE value="add share no" />
+    <option name="LAST_COMMIT_MESSAGE" value="add share no" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
@@ -269,6 +314,9 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/WebSaitTest$testjnliner_testOnliner.ic" NAME="testjnliner.testOnliner Coverage Results" MODIFIED="1700497662766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>by_itAcademy_Ivanchikov_d.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/WebSaitTest$testPizza_start.ic" NAME="testPizza.start Coverage Results" MODIFIED="1701184804014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>by.itacademy.ivanchikov.*</FILTER>
     </SUITE>
   </component>
 </project>

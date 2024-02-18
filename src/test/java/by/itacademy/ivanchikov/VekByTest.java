@@ -1,14 +1,15 @@
 package by.itacademy.ivanchikov;
 
+import by.itacademy.ivanchikov.pages.VekByPage;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-public class VekByTest extends BaseTest{
+public class VekByTest extends BaseTest {
     @BeforeEach
     public void start() throws InterruptedException {
-        driver.get("https://www.21vek.by/");
-        VekByPage webSite21VekByPage = new VekByPage(driver);
+        VekByPage webSite21VekByPage = new VekByPage();
+        webSite21VekByPage.openHomePage();
         webSite21VekByPage.clickButtonAcceptCookie();
         webSite21VekByPage.clickButtonAccount();
         webSite21VekByPage.clickButtonLogin();
@@ -17,7 +18,7 @@ public class VekByTest extends BaseTest{
 
     @Test
     public void test21VekByLoginFormEmptyValues() {
-        VekByPage webSite21VekByPage = new VekByPage(driver);
+        VekByPage webSite21VekByPage = new VekByPage();
         webSite21VekByPage.clickButtonLoginSubmit();
         Assertions.assertEquals("Электронная почта не указана", webSite21VekByPage.getTextErrorMessageEmail());
         Assertions.assertEquals("Пароль не указан", webSite21VekByPage.getTextErrorMessageEmptyPassword());
@@ -25,7 +26,7 @@ public class VekByTest extends BaseTest{
 
     @Test
     public void test21VekByLoginFormOneEmptyValue() {
-        VekByPage webSite21VekByPage = new VekByPage(driver);
+        VekByPage webSite21VekByPage = new VekByPage();
         webSite21VekByPage.sendKeysInputEmail("test@test.com");
         webSite21VekByPage.clickButtonLoginSubmit();
         Assertions.assertEquals("Пароль не указан", webSite21VekByPage.getTextErrorMessageEmptyPassword());
@@ -33,7 +34,7 @@ public class VekByTest extends BaseTest{
 
     @Test
     public void test21VekByLoginFormWithValidValuesAccountDoesNotExist() throws InterruptedException {
-        VekByPage webSite21VekByPage = new VekByPage(driver);
+        VekByPage webSite21VekByPage = new VekByPage();
         webSite21VekByPage.sendKeysInputEmail("test@t.com");
         webSite21VekByPage.sendKeysInputPassword("123456");
         webSite21VekByPage.clickButtonLoginSubmit();

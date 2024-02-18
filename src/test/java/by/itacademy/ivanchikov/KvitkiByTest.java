@@ -1,14 +1,15 @@
 package by.itacademy.ivanchikov;
 
+import by.itacademy.ivanchikov.pages.KvitkiByPage;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-public class KvitkiByTest extends BaseTest{
+public class KvitkiByTest extends BaseTest {
     @BeforeEach
     public void start() throws InterruptedException {
-        driver.get("https://www.kvitki.by/");
-        KvitkiByPage kvitkiByPage = new KvitkiByPage(driver);
+        KvitkiByPage kvitkiByPage = new KvitkiByPage();
+        kvitkiByPage.openHomePage();
         kvitkiByPage.clickButtonAcceptCookie();
         kvitkiByPage.clickButtonCloseCircusBanner();
         kvitkiByPage.clickLinkEnter();
@@ -17,29 +18,29 @@ public class KvitkiByTest extends BaseTest{
 
     @Test
     public void testTextEnterLoginFormExists() {
-        KvitkiByPage kvitkiByPage= new KvitkiByPage(driver);
+        KvitkiByPage kvitkiByPage = new KvitkiByPage();
         Assertions.assertEquals("Вход", kvitkiByPage.getTextEnterLoginForm());
     }
 
     @Test
-    public void testEmptyEmailLoginForm()  {
-        KvitkiByPage kvitkiByPage = new KvitkiByPage(driver);
+    public void testEmptyEmailLoginForm() {
+        KvitkiByPage kvitkiByPage = new KvitkiByPage();
         kvitkiByPage.clickInputEmail();
         kvitkiByPage.clickInputPassword();
         Assertions.assertEquals("Пожалуйста, заполните поле (Эл. почта)", kvitkiByPage.getTextErrorMessageEmail());
     }
 
     @Test
-    public void testEmptyPasswordLoginForm()  {
-        KvitkiByPage kvitkiByPage = new KvitkiByPage(driver);
+    public void testEmptyPasswordLoginForm() {
+        KvitkiByPage kvitkiByPage = new KvitkiByPage();
         kvitkiByPage.clickInputPassword();
         kvitkiByPage.clickInputEmail();
         Assertions.assertEquals("Пожалуйста, заполните поле (Пароль)", kvitkiByPage.getTextErrorMessagePassword());
     }
 
     @Test
-    public void testWrongEmailFormatLoginForm()  {
-        KvitkiByPage kvitkiByPage = new KvitkiByPage(driver);
+    public void testWrongEmailFormatLoginForm() {
+        KvitkiByPage kvitkiByPage = new KvitkiByPage();
         kvitkiByPage.sendKeysInputEmail("test");
         kvitkiByPage.clickInputPassword();
         Assertions.assertEquals("Пожалуйста, введите адрес электронной почты в правильном формате: name@example.com", kvitkiByPage.getTextErrorMessageEmailWrongFormat());
@@ -47,7 +48,7 @@ public class KvitkiByTest extends BaseTest{
 
     @Test
     public void testEmailSuggestionLoginForm() throws InterruptedException {
-        KvitkiByPage kvitkiByPage = new KvitkiByPage(driver);
+        KvitkiByPage kvitkiByPage = new KvitkiByPage();
         kvitkiByPage.sendKeysInputEmail("dmitry@mail.ru");
         Thread.sleep(2000);
         Assertions.assertEquals("Возможно вы имели в виду dmitry@ee.ru ?", kvitkiByPage.getTextEmailSuggestion());
@@ -55,7 +56,7 @@ public class KvitkiByTest extends BaseTest{
 
     @Test
     public void testValidValuesWrongCredentialsLoginForm() throws InterruptedException {
-        KvitkiByPage kvitkiByPage = new KvitkiByPage(driver);
+        KvitkiByPage kvitkiByPage = new KvitkiByPage();
         kvitkiByPage.sendKeysInputEmail("dmitry@mail.ru");
         kvitkiByPage.sendKeysInputPassword("Test123");
         kvitkiByPage.clickButtonEnterLoginForm();

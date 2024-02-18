@@ -1,5 +1,6 @@
-package by.itacademy.ivanchikov;
+package by.itacademy.ivanchikov.pages;
 
+import by.itacademy.ivanchikov.driver.MyDriver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -15,8 +16,12 @@ import org.openqa.selenium.WebDriver;
         private String errorMessageWrongCredentialsLocator = "//div[text()='Пользователь не найден']";
         private WebDriver driver;
 
-        public RwByPage(WebDriver driver) {
-            this.driver = driver;
+        public RwByPage() {
+            this.driver = MyDriver.getDriver();
+        }
+
+           public void openHomePage(){
+            driver.get("https://pass.rw.by/ru/");
         }
 
         public void clickLinkPersonalAccount() {

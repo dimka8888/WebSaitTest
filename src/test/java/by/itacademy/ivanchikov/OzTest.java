@@ -1,12 +1,17 @@
 package by.itacademy.ivanchikov;
 
+import by.itacademy.ivanchikov.domain.User;
+import by.itacademy.ivanchikov.driver.MyDriver;
+import by.itacademy.ivanchikov.pages.OzPage;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.openqa.selenium.WebDriver;
 
-public class OzTest extends BaseTest{
+public class OzTest extends BaseTest {
     @BeforeEach
-    public void start(){
+    public void start() {
+        WebDriver driver = MyDriver.getDriver();
         driver.get("https://oz.by/");
         OzPage ozpage = new OzPage(driver);
         ozpage.clickLinkEnter();
@@ -14,10 +19,10 @@ public class OzTest extends BaseTest{
 
     @Test
     public void testLoginFormValidValuesUserDoesNotExist() throws InterruptedException {
-        OzPage ozpage = new OzPage(driver);
+        OzPage ozpage = new OzPage(MyDriver.getDriver());
         ozpage.clickLinkEmailLoginForm();
-        ozpage.sendKeysInputEmail("sveta@test.com");
-        ozpage.sendKeysInputPassword("123456");
+        ozpage.sendKeysInputEmail("getRandomNoCorrectEmail");
+        ozpage.sendKeysInputPassword(User.getRandomPassvord());
         ozpage.clickButtonEnter();
         Thread.sleep(2000);
         Assertions.assertEquals("Адрес электронной почты не зарегистрирован. Зарегистрироваться", ozpage.getTextErrorMessageEmailDoesNotExist());
@@ -25,10 +30,10 @@ public class OzTest extends BaseTest{
 
     @Test
     public void testLoginFormTextEnterExists() throws InterruptedException {
-        OzPage ozpage = new OzPage(driver);
+        OzPage ozpage = new OzPage(MyDriver.getDriver());
         Assertions.assertEquals("Вход", ozpage.getTextEnterLoginForm());
         Thread.sleep(2000);
-        driver.quit();
+        MyDriver.getDriver().quit();
     }
 
 }

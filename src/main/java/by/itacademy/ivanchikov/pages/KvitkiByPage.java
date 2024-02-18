@@ -1,5 +1,6 @@
-package by.itacademy.ivanchikov;
+package by.itacademy.ivanchikov.pages;
 
+import by.itacademy.ivanchikov.driver.MyDriver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -18,9 +19,11 @@ public class KvitkiByPage {
     private String buttonCloseCircusBannerLocator = "//div [@class='popupbanner_close']";
     private WebDriver driver;
 
-    public KvitkiByPage(WebDriver driver) {
-        this.driver = driver;
+    public KvitkiByPage() {
+        this.driver = MyDriver.getDriver();
     }
+    public void openHomePage(){
+        driver.get("https://www.kvitki.by/");}
 
     public void clickButtonAcceptCookie() {
         driver.findElement(By.xpath(buttonAcceptCookieLocator)).click();
